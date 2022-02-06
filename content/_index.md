@@ -4,7 +4,14 @@ date: 2020-12-19T15:44:19Z
 
 ---
 
+   <script>
 
+$(document).ready(function(){
+  $(".nav-tabs a").click(function(){
+    $(this).tab('show');
+  });
+});
+</script> 
 
 
 <style>
