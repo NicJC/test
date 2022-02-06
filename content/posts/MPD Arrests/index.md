@@ -1,7 +1,7 @@
 ---
 title: Python pandas  
 date: 2020-12-17T11:29:16+13:00
-tags: ["python","data-frames","jupyter"]
+tags: ["python","data-frames"]
 ---
 
 Looking at the amount of people getting arrested over the years, it seems ...

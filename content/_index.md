@@ -110,7 +110,7 @@ Probability has a humble beginning in dice rolls and coin tossing, and simple li
   }
 
 .boxgroup > div{
-  background-color: beige;
+  
   align-content: center;
   width: 180px;
   line-height: justify;
@@ -215,16 +215,7 @@ Probability has a humble beginning in dice rolls and coin tossing, and simple li
   color: black;
 }
 
-.boxgroup div.I {
-  background-color: #f0dc78;
-   border: 1.5px solid black;
-  width: 300px;
-  margin: 10px;
-  text-align: center;
-  line-height: 130px;
-  border-radius: 8px;
-  color: black;
-}
+
 
 
 .boxgroup div.J {
@@ -250,16 +241,6 @@ Probability has a humble beginning in dice rolls and coin tossing, and simple li
   color: black;
 }
 
-.boxgroup div.L {
-  background-color: #10e634;
-   border: 1.5px solid black;
-  width: 300px;
-  margin: 10px;
-  text-align: center;
-  line-height: 130px;
-  border-radius: 8px;
-  color: black;
-}
 
 
 .boxgroup div.M {
@@ -298,16 +279,6 @@ Probability has a humble beginning in dice rolls and coin tossing, and simple li
 }
 
 
-.boxgroup div.P {
-  background-color: #582f69;
-   border: 1.5px solid black;
-  width: 300px;
-  margin: 10px;
-  text-align: center;
-  line-height: 130px;
-  border-radius: 8px;
-  color: black;
-}
 
   .boxgroup div.A:hover {
       opacity: 0.3;
@@ -360,15 +331,9 @@ Probability has a humble beginning in dice rolls and coin tossing, and simple li
       background-color: grey;
     } 
     
-  .boxgroup div.K:hover {
-      opacity: 0.3;
-      background-color: grey;
-    } 
+
     
-   .boxgroup div.L:hover {
-      opacity: 0.3;
-      background-color: grey;
-    } 
+
     
     
   .boxgroup div.M:hover {
@@ -393,14 +358,7 @@ Probability has a humble beginning in dice rolls and coin tossing, and simple li
       background-color: grey;
     }  
     
-#cDiv {
-  width: 160px;
-  height: 40px;
-  background-color: #81de81;
-  border: 1.5px solid black;
-  border-radius: 8px;
-  color: black;
-}
+
 
 
 
@@ -481,13 +439,7 @@ Probability has a humble beginning in dice rolls and coin tossing, and simple li
 <img src="/images/sql.png"/></a>
 
 
-</div>
 
-<div class="I">
-<div class="Icardbody">
-<h6 class="Icardtitle">Microsoft SQL</h6></div>
-<a href="https://nicstats.netlify.app/tags/mssql/">
-<img src="/images/mssql.png"/></a>
 
 
 </div>
@@ -501,24 +453,9 @@ Probability has a humble beginning in dice rolls and coin tossing, and simple li
 
 </div>
 
-<div class="K">
-<div class="Kcardbody">
-<h6 class="Kcardtitle">Power BI</h6></div>
-<a href="https://nicstats.netlify.app/tags/power-bi/">
-<img src="/images/PBI.png"/></a>
 
 
-</div>
 
-<div class="L">
-<div class="Lcardbody">
-<h6 class="Lcardtitle">Data Analytics Expression</h6></div>
-<a href="https://nicstats.netlify.app/tags/dax/">
-<img src="/images/dax.png"/>
-</a>
-
-
-</div>
 
 <div class="M">
 <div class="Mcardbody">
@@ -556,14 +493,7 @@ Probability has a humble beginning in dice rolls and coin tossing, and simple li
 
 </div>
 
-<div class="P">
-<div class="Pcardbody">
-<h6 class="Pcardtitle">Add CSS to Hugo</h6></div>
-<a href="https://nicstats.netlify.app/tags/seaborn/">
 
-<img src="https://img.icons8.com/color/48/000000/css3.png"/></a>
-
-</div>
   
 </div>
 
@@ -581,10 +511,6 @@ Probability has a humble beginning in dice rolls and coin tossing, and simple li
   
 </a>
 
-<div id="cDiv">
-
-<h3><a href="https://codepen.io/nic-coxen" target="_blank">
-  <i class="fab fa-codepen">CODEPEN</i><p style="font-size:12px"><p style="color:black">   </p></h3></a></div>
 
 <center>
 
