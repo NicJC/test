@@ -281,39 +281,14 @@ text-align: left;
       background-color: #e9f5f9;
       
       }
-#menu{
 
-  display: flex;
-  height: justify;
-  flex-wrap: wrap;
-  align-content: justify;
-
-  position: relative;
-  right: 350px;
-  float: left;
-  
- 
-  
-}
 </style>
 
 <body>
 
 <br>
 
-<nav>
-    <div id="menu">
-        <ul>
-        <a href="https://testwyr.netlify.app/#">Home</a>
-        <a href="https://testwyr.netlify.app/posts/">Posts</a>
-        <a href="https://testwyr.netlify.app/tags/r/">R</a>
-        <a href="https://testwyr.netlify.app/tags/python/">Python</a>
-        <a href="https://testwyr.netlify.app/tags/julia/">Julia</a>
-        <a href="https://testwyr.netlify.app/tags/math/">Math</a>
-        <a href="https://testwyr.netlify.app/app/contact/">Contact</a>
-        <a href="#">Social</a>
-</ul>
-</nav>
+
 
 <div id="pic">
 

@@ -394,6 +394,19 @@ img {
       opacity: 0.3;
       background-color: grey;
     }  
-    
+#menu{
+
+  display: flex;
+  height: justify;
+  flex-wrap: wrap;
+  align-content: justify;
+
+  position: relative;
+  right: 350px;
+  float: left;
+  
+ 
+  
+}    
 
 </style>
