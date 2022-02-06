@@ -1,0 +1,36 @@
+{{ define "main" }} 
+
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+
+       
+      <div class="homepage-content">
+        <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
+        {{.Content}}
+      </div>
+</section>
+<aside id="meta">
+    <div>
+    <section>
+<p><b>
+
+Created on:</b></p>
+      <h6 id="date"> {{ .Date.Format "Mon, Jan 2, 2006" }} </h6>
+      
+    </section>
+    
+    
+
+    </div>
+
+{{- $jsFile := .Title | anchorize -}}
+{{- $pathJS := (printf "%s%s%s" "js/posts/" $jsFile ".js" ) -}}
+
+{{- if (fileExists (printf "%s%s" "static/" $pathJS)) -}}
+  <script type="text/javascript" src="{{ $pathJS | absURL }}"></script>
+{{- end -}}
+</aside>
+{{ end }}

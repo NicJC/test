@@ -21,3 +21,11 @@ options(
 
 # fix Hugo version
 options(blogdown.hugo.version = "0.79.1")
+
+
+# in .Rprofile of the website project
+if (file.exists("~/.Rprofile")) {
+  base::sys.source("~/.Rprofile", envir = environment())
+}
+
+options(blogdown.new_bundle = TRUE)
