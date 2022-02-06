@@ -3,17 +3,137 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
-    
+<link rel="stylesheet"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css ">   
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" 
 integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" 
 crossorigin="anonymous">
 
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   
+   
+   
+<nav>
+    <ul class="menu">
+        <li class="logo"><a href="/">Home</a></li>
+        <li class="item"><a href="/Posts/">Posts</a></li>
+        <li class="item"><a href="#about">About</a></li>
+        <li class="item has-submenu">
+            <a tabindex="0">Interests</a>
+            <ul class="submenu">
+                <li class="subitem"><a href="#">R</a></li>
+                <li class="subitem"><a href="#">Julia</a></li>
+                <li class="subitem"><a href="#">Python</a></li>
+                <li class="subitem"><a href="#">Stats</a></li>
+            </ul>
+        </li>
+        <li class="item"><a href="#">Blog</a></li>
+        <li class="item"><a href="#">Contact</a>
+        </li>
+
+        <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+    </ul>
+</nav>
 
 
 <style>
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+nav {
+    background: #3ba1c5;
+    padding: 0 15px;
+}
 
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu li a {
+    display: block;
+    padding: 15px 5px;
+}
+.menu li.subitem a {
+    padding: 15px;
+}
+.toggle {
+    order: 1;
+    font-size: 20px;
+}
+.item.button {
+    order: 2;
+}
+.item {
+    order: 3;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+.active .item {
+    display: block;
+}
+.button.secondary { /* divider between buttons and menu links */
+    border-bottom: 1px #444 solid;
+}
+
+
+.submenu {
+    display: none;
+}
+.submenu-active .submenu {
+   display: block;
+}
+.has-submenu i {
+    font-size: 12px;
+}
+.has-submenu > a::after {
+    font-family: "Font Awesome 5 Free";
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 900; 
+    content: "\f078";
+    color: white;
+    padding-left: 5px;
+}
+.subitem a {
+    padding: 10px 15px;
+}
+.submenu-active {
+    background-color: #111;
+    border-radius: 3px;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+.menu,
+.submenu {   
+    list-style-type: none;
+}
+.logo {
+    font-size: 20px;
+    padding: 7.5px 10px 7.5px 0;
+}
+.item {
+    padding: 10px;
+}
+.item.button {
+    padding: 9px 5px;
+}
+.item:not(.button) a:hover,
+.item a:hover::after {
+    color: #ccc;
+}
 
 .content {
   padding: 16px;
@@ -202,7 +322,31 @@ $(function(){
     });
 });
 
-</script>  
+</script> 
+
+<script>
+
+/* Toggle mobile menu */
+function toggleMenu() {
+    if (menu.classList.contains("active")) {
+        menu.classList.remove("active");
+        
+        // adds the menu (hamburger) icon
+        toggle.querySelector("a").innerHTML = "<i class=’fas fa-bars’></i>";
+    } else {
+        menu.classList.add("active");
+        
+        // adds the close (x) icon
+        toggle.querySelector("a").innerHTML = "<i class=’fas fa-times’></i>";
+    }
+}
+
+/* Event Listener */
+toggle.addEventListener("click", toggleMenu, false);
+
+
+</script>
+
 </body>
 </html>
 
