@@ -496,7 +496,25 @@ this means is pretty straight forward.
 
 </br>
 
+ <!-- datasets -->
+ 
+  <div class="data">
+    <div id="dt" ><br>
+      <a href="https://github.com/NicJC/Datasets">Check out my datasets!</a>
+    </div>
+    </div>
 
+<script>
+
+$(document).ready(function(){
+  $(".nav-tabs a").click(function(){
+    $(this).tab('show');
+  });
+});
+</script>
+
+
+<br>
 
 </body>
 
