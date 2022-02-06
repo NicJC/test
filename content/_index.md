@@ -6,6 +6,8 @@ date: 2020-12-19T15:44:19Z
 
 <style>
 
+
+
 .boxgroup {
   display: flex;
   height: justify;
@@ -277,6 +279,142 @@ text-align: left;
       background-color: #e9f5f9;
       
       }
+      
+      
+      
+$viewport_size: (
+    s: 320px,
+    m: 768px,
+    l: 1200px
+);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato';
+    color: #4a4a4a;
+    font-size: 20px;
+}
+
+a {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+.desktop {
+  display: none;
+}
+
+.menu__icon {
+  height: 32px;
+  width: 43px;
+  margin: 3%;
+  position: absolute;
+  top: 10px;
+  right: 3%;
+  display: inline-block;
+  vertical-align: middle;
+  z-index: 20;
+}
+
+.menu__icon span {
+  display: block;
+  background: blue;
+  width: 100%;
+  height: 4px;
+  margin-top: -2px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+
+.menu__icon:before,
+.menu__icon:after {
+  content: "";
+  display: block;
+  background: blue;
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  left: 0;
+  transform-origin: center center;
+  transform: rotate(0deg);
+  transition: all 0.3s ease;
+}
+
+.menu__icon:before {
+  top: 2px;
+  margin-top: -2px;
+}
+
+.menu__icon:after {
+  bottom: 2px;
+  margin-bottom: -2px;
+}
+
+
+.menu_shown .menu__icon span {
+  background: transparent;
+}
+
+.menu_shown .menu__icon:before {
+  top: 50%;
+  transform: rotate(45deg);
+}
+
+.menu_shown .menu__icon:after {
+  bottom: 50%;
+  transform: rotate(-45deg);
+}
+
+
+.mobile.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  padding-top: 112px;
+  background: #7eb4e2;
+  z-index: 10;
+  transition: all .4s ease-in-out;
+  transform: translateX(-100%);
+}
+
+.menu_shown .mobile.menu {
+  transform: translateX(0);
+}
+
+.mobile .menu__item {
+  display: block;
+  line-height: 2;
+  padding: 25px 0;
+}
+
+@media (min-width: map-get($viewport_size, l)) {
+  nav {
+    padding: 3% 6%;
+    background: #7eb4e2;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+}      
 
 </style>
 
@@ -288,11 +426,7 @@ text-align: left;
 
 </div>
 
-<div id="txt">
 
-<p><h3><b><i>Hi, my name is Nic</i></b></h3></p>
-
-</div>
 
 
 
@@ -453,6 +587,16 @@ Probability has a humble beginning in dice rolls and coin tossing, and simple li
 
   
 </div>
+
+<nav>
+    <ul class="menu desktop">
+        <li><a href="/Posts/" class="menu__item">Posts</a></li>
+        <li><a href="#" class="menu__item">Home</a></li>
+    </ul>
+</nav>
+
+
+
 </br>
 <br>
 <p><b><H3>Conect with me on:</H3></B></p>
@@ -476,6 +620,16 @@ Probability has a humble beginning in dice rolls and coin tossing, and simple li
 </center>
 
 </br>
+<script>
+
+
+$(document).ready(function() {
+  $('.menu__icon').click(function(){
+    $('body').toggleClass('menu_shown');
+  });
+});
+
+</script>
 
 </body>
 
