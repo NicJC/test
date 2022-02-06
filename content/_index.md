@@ -531,11 +531,11 @@ Probability has a humble beginning in dice rolls and coin tossing, and simple li
 <i class="fab fa-creative-commons fa-2x"></i><i class="fab fa-creative-commons-by fa-2x"></i><i class="fab fa-creative-commons-sa fa-2x"></i>
 
 </center>
-&nbsp;&nbsp;&nbsp;
-</br><br></br>
-&nbsp;&nbsp;&nbsp;
+
+</br>
+
 </body>
-&nbsp;&nbsp;&nbsp;
+
 </head>
-&nbsp;&nbsp;&nbsp;
+
 </html>
