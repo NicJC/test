@@ -38,7 +38,7 @@ reading_time = true
 
 [[menu.main]]
     name = "Get in touch"
-    url = "/contact"
+    url = "/contact/"
 
 
 
