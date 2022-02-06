@@ -6,59 +6,6 @@ date: 2020-12-19T15:44:19Z
 
 <style>
 
-
-img {
-  border-radius: 8px;
-}
-
-#pic{
-  margin: 140px;
-  animation-duration: 3s;
-  animation-name: slidein;
-  margin-top: 75px;
-}
-
-@keyframes slidein {
-  from {
-    margin-right: 10%;
-    width: 300%;
-    margin-top: 10px;
-    
-   }
- to {
-    margin-left: 30%;
-    width: 300%;
-    margin: 140px;
-    margin-top: 75px;
-  }
-}
-
-
-#txt{
-  
-  margin: 50px;
-  animation-duration: 3s;
-  animation-name: slide;
-  margin-top: -95px;
-}
-
-@keyframes slide {
-  from {
-    margin-left: -50%;
-    width: 300%;
-    margin-top: -60px;
-    
-   }
- to {
-    margin-left: 150%;
-    width: 300%;
-    margin: 70px;
-    margin-top: 95px;
-  }
-}
-
-
-
 .boxgroup {
   display: flex;
   height: justify;
@@ -290,10 +237,6 @@ img {
     } 
     
 
-    
-
-    
-    
   .boxgroup div.M:hover {
       opacity: 0.3;
       background-color: grey;
