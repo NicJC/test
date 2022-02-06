@@ -472,6 +472,7 @@ this means is pretty straight forward.
 
 </br>
 <br>
+<div id="Connect">
 <p><b><H3>Conect with me on:</H3></B></p>
 
 
@@ -484,6 +485,7 @@ this means is pretty straight forward.
   <img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=azure alt=linkedin style="margin-bottom: 8px;" />
   
 </a>
+</div>
 </br><br>
 
 <center>
