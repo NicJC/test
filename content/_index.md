@@ -20,7 +20,7 @@ img {
 
 @keyframes slidein {
   from {
-    margin-left: 80%;
+    margin-right: 10%;
     width: 300%;
     margin-top: 10px;
     
@@ -36,7 +36,7 @@ img {
 
 #txt{
   
-  margin: 70px;
+  margin: 50px;
   animation-duration: 3s;
   animation-name: slide;
   margin-top: -95px;
@@ -53,52 +53,10 @@ img {
     margin-left: 150%;
     width: 300%;
     margin: 70px;
-    margin-top: -95px;
+    margin-top: 95px;
   }
 }
 
-
-
-</style>
-
-<body>
-
-<div id="pic">
-
-<img src="/images/avatar.jpg"  />
-
-</div>
-
-<div id="txt">
-
-<p><h3><b><i>Hi, my name is Nic</i></b></h3></p>
-
-</div>
-
-
-
-
-
-<h3><b>My personal interests include:</b></h3>
-
-- Maths and Statistics
-- Analytics
-- Data Modeling
-- Analytic programming
-
-<B><H3>About me</H3></B> 
-
-I love numbers, and I'm truly amazed by how numbers control so many things in our daily lives. 
-I'm particularly fascinated by number distributions, and how certain sequences of numbers are able to predict future outcomes.
-
-I like looking at the fundamental elements of popular trends like linear regression, machine learning, artificial intelligence and the like.
-There are basic building blocks to all of these mathematical concepts.
-
-Probability has a humble beginning in dice rolls and coin tossing, and simple linear regression really is simple, but once the basics are in place, concepts are built upon, and that's when it starts getting more involved. If we had to start talking about linear regression and throw in coefficient of determination, it gets tricky, but working up to, and explaining what this means is pretty straight forward. 
-
-
-
-<style>
 
 
 .boxgroup {
@@ -106,7 +64,7 @@ Probability has a humble beginning in dice rolls and coin tossing, and simple li
   height: justify;
   flex-wrap: wrap;
   align-content: justify;
-  background-color: #f5f4f3;
+  
   }
 
 .boxgroup > div{
@@ -356,16 +314,72 @@ Probability has a humble beginning in dice rolls and coin tossing, and simple li
   .boxgroup div.P:hover {
       opacity: 0.3;
       background-color: grey;
-    }  
+    }
     
+    
+  #interests{
+    text-align: left;
+  line-height: 20px;
+  font-size: justify;
+  }
 
+#about{
+text-align: left;
+  line-height: 20px;
+  font-size: justify;
+}
 
-
+#topic:hover {
+      opacity: 0.3;
+      background-color: #e9f5f9;
+      
+      }
 
 </style>
 
-<h3><b>Check out these topics :</b></h3>
+<body>
 
+<div id="pic">
+
+<img src="/images/avatar.jpg"  />
+
+</div>
+
+<div id="txt">
+
+<p><h3><b><i>Hi, my name is Nic</i></b></h3></p>
+
+</div>
+
+
+
+
+<div id="interests">
+<h3><b><u>My personal interests include:</u></b></h3>
+
+- Maths and Statistics
+- Analytics
+- Data Modeling
+- Analytic programming
+
+</div>
+<div id="about">
+<B><H3><u>About me</u></H3></B> 
+
+I love numbers, and I'm truly amazed by how numbers control so many things in our daily lives. 
+I'm particularly fascinated by number distributions, and how certain sequences of numbers are able to predict future outcomes.
+
+I like looking at the fundamental elements of popular trends like linear regression, machine learning, artificial intelligence and the like.
+There are basic building blocks to all of these mathematical concepts.
+
+Probability has a humble beginning in dice rolls and coin tossing, and simple linear regression really is simple, but once the basics are in place, concepts are built upon, and that's when it starts getting more involved. If we had to start talking about linear regression and throw in coefficient of determination, it gets tricky, but working up to, and explaining what this means is pretty straight forward. 
+
+</div>
+
+<br>
+<div id="topic">
+<h2><b>Check out these topics :</b></h2>
+</div>
 <div class="boxgroup">
 
 <div class="A">
@@ -496,8 +510,8 @@ Probability has a humble beginning in dice rolls and coin tossing, and simple li
 
   
 </div>
-
-
+</br>
+<br>
 <p><b><H3>Conect with me on:</H3></B></p>
 
 
@@ -510,14 +524,18 @@ Probability has a humble beginning in dice rolls and coin tossing, and simple li
   <img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=azure alt=linkedin style="margin-bottom: 8px;" />
   
 </a>
-
+</br><br>
 
 <center>
 
 <i class="fab fa-creative-commons fa-2x"></i><i class="fab fa-creative-commons-by fa-2x"></i><i class="fab fa-creative-commons-sa fa-2x"></i>
 
 </center>
-
+&nbsp;&nbsp;&nbsp;
+</br><br></br>
+&nbsp;&nbsp;&nbsp;
 </body>
+&nbsp;&nbsp;&nbsp;
 </head>
+&nbsp;&nbsp;&nbsp;
 </html>

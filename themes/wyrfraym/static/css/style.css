@@ -1,8 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
 
-<style type="text/css">
+
+<style>
 h1 {
   font-size: 34px;
 }
@@ -442,14 +440,7 @@ img {
       background-color: grey;
     }  
     
-#cDiv {
-  width: 160px;
-  height: 40px;
-  background-color: #81de81;
-  border: 1.5px solid black;
-  border-radius: 8px;
-  color: black;
-}
+
 
 
 
