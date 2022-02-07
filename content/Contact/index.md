@@ -81,14 +81,7 @@ ul li .active {
   border-radius: 8px;
 }
 
-#cDiv {
-  width: 170px;
-  height: 40px;
-  background-color: #81de81;
-  border: 1.5px solid black;
-  border-radius: 8px;
-  color: black;
-}
+
 
 
 .flip-card {
@@ -123,6 +116,7 @@ ul li .active {
 .flip-card-front {
   background-color: #bbb;
   color: black;
+  display:inline-block;
 }
 
 .flip-card-back {
@@ -130,6 +124,7 @@ ul li .active {
   color: white;
   transform: rotateY(180deg);
     font-size: 150%;
+    display:inline-block;
 }
 
 img {
@@ -152,10 +147,7 @@ img {
   
 </a>
 
-<div id="cDiv">
 
-<h4><a href="https://codepen.io/nic-coxen" target="_blank">
-  <i class="fab fa-codepen">CODEPEN</i><p style="font-size:12px"><p style="color:black">   </p></h4></a></div>
 
 <i class="fa fa-cog fa-spin"></i>
 

@@ -333,7 +333,7 @@ There are basic building blocks to all of these mathematical concepts.</center>
 <div class="A">
 <div class="Acardbody">
 <h6 class="Acardtitle">Visualisation</h6></div>
-<a href="https://nicstats.netlify.app/tags/visualisation/" target="_blank" rel="noopener">
+<a href="https://testwyr.netlify.app/tags/visualisation/" target="_blank" rel="noopener">
 <img src="https://img.icons8.com/plasticine/100/4a90e2/combo-chart.png"/></a>
 
 </div>
@@ -342,7 +342,7 @@ There are basic building blocks to all of these mathematical concepts.</center>
 <div class="B">
 <div class="Bcardbody">
 <h6 class="Bcardtitle">Python</h6></div>
-<a href="https://nicstats.netlify.app/tags/python/">
+<a href="https://testwyr.netlify.app/tags/python/">
 <img src="https://img.icons8.com/dusk/64/000000/python.png"/></a>
 
 </div>
@@ -351,7 +351,7 @@ There are basic building blocks to all of these mathematical concepts.</center>
 <div class="C">
 <div class="Ccardbody">
 <h6 class="Ccardtitle">Jupyter Notebook</h6></div>
-<a href="https://nicstats.netlify.app/tags/jupyter/">
+<a href="https://testwyr.netlify.app/tags/jupyter/">
 <img src="/images/jupyter.png"/></a>
 
 </div>
@@ -360,7 +360,7 @@ There are basic building blocks to all of these mathematical concepts.</center>
 <div class="D">
 <div class="Dcardbody">
 <h6 class="Dcardtitle">Julia</h6></div>
-<a href="https://nicstats.netlify.app/tags/julia/" target="_blank" rel="noopener">
+<a href="https://testwyr.netlify.app/tags/julia/" target="_blank" rel="noopener">
 <img src="/images/julia.png"/></a>
 
 </div>
@@ -370,7 +370,7 @@ There are basic building blocks to all of these mathematical concepts.</center>
 <div class="E">
 <div class="Ecardbody">
 <h6 class="Ecardtitle">Analytic Programming</h6></div>
-<a href="https://nicstats.netlify.app/tags/analytic-programming/">
+<a href="https://testwyr.netlify.app/tags/analytic-programming/">
 <img src="/images/analytic programming.png"/></a>
 
 </div>
@@ -380,7 +380,7 @@ There are basic building blocks to all of these mathematical concepts.</center>
 <div class="F">
 <div class="Fcardbody">
 <h6 class="Fcardtitle">Time Series</h6></div>
-<a href="https://nicstats.netlify.app/tags/time-series/">
+<a href="https://testwyr.netlify.app/tags/time-series/">
 <img src="/images/time-series.png""/></a>
 
 </div>
@@ -388,7 +388,7 @@ There are basic building blocks to all of these mathematical concepts.</center>
 <div class="G">
 <div class="Gcardbody">
 <h6 class="Gcardtitle">Python data-frames</h6></div>
-<a href="https://nicstats.netlify.app/tags/data-frames/">
+<a href="https://testwyr.netlify.app/tags/data-frames/">
 <img src="/images/data.png"/></a>
 
 </div>
@@ -397,7 +397,7 @@ There are basic building blocks to all of these mathematical concepts.</center>
 <div class="H">
 <div class="Hcardbody">
 <h6 class="Hcardtitle">Python SQL and PYODBC</h6></div>
-<a href="https://nicstats.netlify.app/tags/sql/">
+<a href="https://testwyr.netlify.app/tags/sql/">
 <img src="/images/sql.png"/></a>
 
 
@@ -409,7 +409,7 @@ There are basic building blocks to all of these mathematical concepts.</center>
 <div class="J">
 <div class="Jcardbody">
 <h6 class="Jcardtitle">R programming</h6></div>
-<a href="https://nicstats.netlify.app/tags/r/">
+<a href="https://testwyr.netlify.app/tags/r/">
 <img src="/images/rstudio.png"/></a>
 
 
@@ -422,7 +422,7 @@ There are basic building blocks to all of these mathematical concepts.</center>
 <div class="M">
 <div class="Mcardbody">
 <h6 class="Mcardtitle">Machine Learning</h6></div>
-<a href="https://nicstats.netlify.app/tags/machine-learning/">
+<a href="https://testwyr.netlify.app/tags/machine-learning/">
 
 <img src="/images/mlface.jpg"/>
 </a>
@@ -434,7 +434,7 @@ There are basic building blocks to all of these mathematical concepts.</center>
 <div class="N">
 <div class="Ncardbody">
 <h6 class="Ncardtitle">ggplot</h6></div>
-<a href="https://nicstats.netlify.app/tags/ggplot/">
+<a href="https://testwyr.netlify.app/tags/ggplot/">
 
 <img src="/images/ggplot.png"/>
 </a>
@@ -446,7 +446,7 @@ There are basic building blocks to all of these mathematical concepts.</center>
 <div class="O">
 <div class="Ocardbody">
 <h6 class="Ocardtitle">Python Seaborn</h6></div>
-<a href="https://nicstats.netlify.app/tags/seaborn/">
+<a href="https://testwyr.netlify.app/tags/seaborn/">
 
 <img src="/images/seaborn.png"/>
 

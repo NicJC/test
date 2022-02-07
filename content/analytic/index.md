@@ -86,6 +86,7 @@ ul li .active {
   color: black;
   font-weight: 1000;
   border-radius: 8px;
+  
 }
 
 
@@ -188,7 +189,7 @@ function mOut(obj) {
 <div class="A">
 <div class="Acardbody">
 <h6 class="Acardtitle">R programming</h6></div>
-<a href="https://nicstats.netlify.app/tags/visualisation/" target="_blank" rel="noopener">
+<a href="https://testwyr.netlify.app/tags/visualisation/" target="_blank" rel="noopener">
 <img src="/images/rproject.png"/></a>
 
 </div>
@@ -197,7 +198,7 @@ function mOut(obj) {
 <div class="B">
 <div class="Bcardbody">
 <h6 class="Bcardtitle">Python</h6></div>
-<a href="https://nicstats.netlify.app/tags/python/">
+<a href="https://testwyr.netlify.app/tags/python/">
 <img src="https://img.icons8.com/dusk/64/000000/python.png"/></a>
 
 </div>
@@ -206,7 +207,7 @@ function mOut(obj) {
 <div class="C">
 <div class="Ccardbody">
 <h6 class="Ccardtitle">Julia</h6></div>
-<a href="https://nicstats.netlify.app/tags/jupyter/">
+<a href="https://testwyr.netlify.app/tags/jupyter/">
 <img src="/images/julia.png"/></a>
 
 </div>
