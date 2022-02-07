@@ -4,14 +4,7 @@ date: 2020-12-19T15:44:19Z
 
 ---
 
-   <script>
 
-$(document).ready(function(){
-  $(".nav-tabs a").click(function(){
-    $(this).tab('show');
-  });
-});
-</script> 
 
 
 <style>
@@ -278,24 +271,25 @@ $(document).ready(function(){
   }
 
 #about{
-text-align: left;
-  line-height: 20px;
+  text-align: left;
+  gap:20px;
   font-size: justify;
+  width: 600px; 
+  word-break: break-all;
+  
 }
 
 #topic:hover {
-      opacity: 0.3;
+      opacity: 0.2;
       background-color: #e9f5f9;
       
       }
+   
+      
 
 </style>
 
 <body>
-
-<br>
-
-
 
 <div id="pic">
 
@@ -303,8 +297,9 @@ text-align: left;
 
 </div>
 
-<div id="interests">
 <h3><b><u>My personal interests include:</u></b></h3>
+<div id="interests">
+
 
 * Maths and Statistics
 * Analytics
@@ -313,25 +308,17 @@ text-align: left;
 
 </div>
 <div id="about">
-<B><H3><u>About me</u></H3></B> 
-
-I love numbers, and I'm truly amazed by how numbers control so many things in our daily lives. 
+<B><H3><u>About me</u></H3></B>
+<p>I love numbers, and I'm truly amazed by how numbers control so many things in our daily lives. 
 I'm particularly fascinated by number distributions, and how certain sequences of numbers are
-able to predict future outcomes.
+able to predict future outcomes.</p>
 
-I like looking at the fundamental elements of popular trends like linear regression, 
+<p>I like looking at the fundamental elements of popular trends like linear regression, 
 machine learning, artificial intelligence and the like.
-There are basic building blocks to all of these mathematical concepts.
-
-Probability has a humble beginning in dice rolls and coin tossing, and simple linear regression 
-really is simple, and once the basics are in place, concepts can be built upon, and that's when it
-starts getting more involved and interesting. If we had to start talking about linear regression 
-and throw in coefficient of determination, it gets tricky, but working up to, and explaining what
-this means is pretty straight forward. 
-
+There are basic building blocks to all of these mathematical concepts.</center>
+</p>
 </div>
 
-<br>
 <div id="topic">
 <h2><b>Check out these topics :</b></h2>
 </div>
