@@ -16,21 +16,20 @@ date: 2020-12-19T15:44:19Z
 }
 
 
-
-.img1{
-
+#img1{
   position: relative;
-  animation: myfirst 5s 2;
-  animation-direction: alternate;
+  animation: myfirst 7s;
+  animation-direction:normal;
+  transform: rotate(0deg);
+  transform: rotate(60deg);
+ 
 }
 
 @keyframes myfirst {
-  0%   {background: red; left: 0px; top: 0px;}
-  25%  {background: yellow; left: 200px; top: 0px;}
-  50%  {background: blue; left: 200px; top: 200px;}
-  75%  {background: green; left: 0px; top: 200px;}
-  100% {background: red; left: 0px; top: 0px;}
-  }
+  0%   { left: 120px; top: 0px;}
+  100%  { left: 120px; top: 400px;}
+
+}
 
 
 
