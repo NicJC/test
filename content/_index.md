@@ -521,12 +521,7 @@ There are basic building blocks to all of these mathematical concepts.</center>
     </div>
     </div>
 <br>
-<script>
 
-$(document).ready(function(){
-  $(".nav-tabs a").click(function(){
-    $(this).tab('show');
-  });
-});
-</script>
+
+<script> $(document).ready(function(){ $(".nav-tabs a").click(function(){ $(this).tab('show'); }); }); </script>
 

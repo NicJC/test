@@ -86,7 +86,7 @@ ul li .active {
   color: black;
   font-weight: 1000;
   border-radius: 8px;
-  
+  display: block;
 }
 
 
