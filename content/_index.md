@@ -496,7 +496,7 @@ There are basic building blocks to all of these mathematical concepts.</center>
       <a href="https://github.com/NicJC/Datasets">Check out my datasets!</a>
     </div>
     </div>
-
+<br>
 <script>
 
 $(document).ready(function(){
