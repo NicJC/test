@@ -3,6 +3,9 @@ title:
 date: 2020-12-19T15:44:19Z
 
 ---
+<div id="img1">
+<img src="/./_index_files/python.svg" alt="" width="1.5%"/>
+</div>
 
 
 
@@ -11,6 +14,28 @@ date: 2020-12-19T15:44:19Z
 * {
   transform-style: preserve-3d;
 }
+
+
+
+.img1{
+
+  position: relative;
+  animation: myfirst 5s 2;
+  animation-direction: alternate;
+}
+
+@keyframes myfirst {
+  0%   {background: red; left: 0px; top: 0px;}
+  25%  {background: yellow; left: 200px; top: 0px;}
+  50%  {background: blue; left: 200px; top: 200px;}
+  75%  {background: green; left: 0px; top: 200px;}
+  100% {background: red; left: 0px; top: 0px;}
+  }
+
+
+
+
+
 
 #pic:hover {
 
@@ -38,7 +63,7 @@ date: 2020-12-19T15:44:19Z
 }
 
 .boxgroup div.A {
-  background-color: #8c4ba3;
+  background-color: #92cbdf;
   border: 1.5px solid black;
   width: 300px;
   margin: 10px;
@@ -49,7 +74,7 @@ date: 2020-12-19T15:44:19Z
 }
 
 .boxgroup div.B {
-  background-color: #4287f5;
+  background-color: #92cbdf;
    border: 1.5px solid black;
   width: 300px;
   margin: 10px;
@@ -61,7 +86,7 @@ date: 2020-12-19T15:44:19Z
 
 
 .boxgroup div.C {
-  background-color: #25cc25;
+  background-color: #92cbdf;
    border: 1.5px solid black;
   width: 300px;
   margin: 10px;
@@ -72,7 +97,7 @@ date: 2020-12-19T15:44:19Z
 }
 
 .boxgroup div.D {
-  background-color: #fcba03;
+  background-color: #92cbdf;
    border: 1.5px solid black;
   width: 300px;
   margin: 10px;
@@ -84,7 +109,7 @@ date: 2020-12-19T15:44:19Z
 
 
 .boxgroup div.E {
-  background-color: #fa2f79;
+  background-color: #92cbdf;
    border: 1.5px solid black;
   width: 300px;
   margin: 10px;
@@ -96,7 +121,7 @@ date: 2020-12-19T15:44:19Z
 
 
 .boxgroup div.F {
-  background-color: #d1cb92;
+  background-color: #92cbdf;
    border: 1.5px solid black;
   width: 300px;
   margin: 10px;
@@ -108,7 +133,7 @@ date: 2020-12-19T15:44:19Z
 
 
 .boxgroup div.G {
-  background-color: #48d995;
+  background-color:#92cbdf;
    border: 1.5px solid black;
   width: 300px;
   margin: 10px;
@@ -120,7 +145,7 @@ date: 2020-12-19T15:44:19Z
 
 
 .boxgroup div.H {
-  background-color: #c177e0;
+  background-color: #92cbdf;
    border: 1.5px solid black;
   width: 300px;
   margin: 10px;
@@ -134,7 +159,7 @@ date: 2020-12-19T15:44:19Z
 
 
 .boxgroup div.J {
-  background-color: #4c5185;
+  background-color: #92cbdf;
    border: 1.5px solid black;
   width: 300px;
   margin: 10px;
@@ -146,7 +171,7 @@ date: 2020-12-19T15:44:19Z
 
 
 .boxgroup div.K {
-  background-color: #daed6d;
+  background-color: #92cbdf;
    border: 1.5px solid black;
   width: 300px;
   margin: 10px;
@@ -159,7 +184,7 @@ date: 2020-12-19T15:44:19Z
 
 
 .boxgroup div.M {
-  background-color: #8fc6e3;
+  background-color: #92cbdf;
    border: 1.5px solid black;
   width: 300px;
   margin: 10px;
@@ -170,7 +195,7 @@ date: 2020-12-19T15:44:19Z
 }
 
 .boxgroup div.N {
-  background-color: #c7242f;
+  background-color: #92cbdf;
    border: 1.5px solid black;
   width: 300px;
   margin: 10px;
@@ -183,7 +208,7 @@ date: 2020-12-19T15:44:19Z
 
 
 .boxgroup div.O {
-  background-color: #42d7f5;
+  background-color: #92cbdf;
    border: 1.5px solid black;
   width: 300px;
   margin: 10px;
@@ -278,10 +303,11 @@ date: 2020-12-19T15:44:19Z
 
 #about{
   text-align: left;
-  gap:20px;
+  
   font-size: justify;
   width: 600px; 
   word-break: break-all;
+  flex-flow: column wrap;
   
 }
 
@@ -291,8 +317,7 @@ date: 2020-12-19T15:44:19Z
       
       }
    
-      
-
+   
 </style>
 
 <body>
