@@ -68,7 +68,7 @@ ul li {
     
 ul li a {
   display: block;
-  color: #4de4cb;
+  color: steelblue ;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -84,23 +84,14 @@ ul li .active {
   display: block;
 }
 
-
+.p3{
+padding: 14px 16px;
+color: steelblue ;
+font-size: 18px;
+}
 </style>
 
-<h3 onmouseover="mOver(this)" onmouseout="mOut(this)" 
-style="background-color:#FCFAF8;width:750px;height:10px;padding:20px;"><b>
-Analytical programming
-</b>
-<script>
-function mOver(obj) {
-  obj.innerHTML = "Python, R and Julia"
-}
-
-function mOut(obj) {
-  obj.innerHTML = "There are 3 awesome programming languages that are good for Analytics"
-}
-</script></h3>
-
+<p1> 3 Awesome programming languages</p3>
 </head>
 <body>
 
@@ -113,7 +104,7 @@ function mOut(obj) {
   height: justify;
   flex-wrap: wrap;
   align-content: justify;
-  background-color: #FCFAF8;
+  background-color: #92cbdf;
   }
 
 .boxgroup > div{
