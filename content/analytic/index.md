@@ -226,7 +226,7 @@ a{
     -webkit-transform: translateZ(0); backface-visibility: hidden;
   scale(1.0, 1.0);
     transform: translateZ(0);
-    background:#eeeee4 url("/images/mathbanner.png") 100% 0 no-repeat;
+    background:#eeeee4 url("/images/mathbanner.png") 150% 0 no-repeat;
   
   background-size:100%;
   background-attachment:fixed;
