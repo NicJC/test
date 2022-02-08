@@ -3,9 +3,6 @@ title:
 date: 2020-12-19T15:44:19Z
 
 ---
-<div id="img1">
-<img src="/./_index_files/python.svg" alt="" width="1.5%"/>
-</div>
 
 
 
@@ -16,14 +13,7 @@ date: 2020-12-19T15:44:19Z
 }
 
 
-#img1{
-  position: relative;
-  animation: myfirst 7s;
-  animation-direction:normal;
-  transform: rotate(0deg);
-  transform: rotate(60deg);
- 
-}
+
 
 @keyframes myfirst {
   0%   { left: 120px; top: 0px;}

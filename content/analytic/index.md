@@ -22,14 +22,9 @@ layout: analytics
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 
-<style>
 
-#pic{
-   background-repeat: repeat-x;
-   width: 800px;
-}
 
-</style>
+
 
 <div id="pic">
 
@@ -181,7 +176,102 @@ function mOut(obj) {
   .boxgroup div.C:hover {
       opacity: 0.3;
       background-color: grey;
-    }  
+    }
+    
+    
+   
+
+ 
+html,body{
+  margin:0;
+  height:120%;
+  font-family: 'Outfit', sans-serif;
+
+}
+a{
+  text-decoration:none
+}
+.header{
+  position:relative;
+  overflow:hidden;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  height:50vw;
+  min-height:400px;
+  max-height:550px;
+  min-width:300px;
+  color:#eee;
+}
+.header:after{
+  content:"";
+  width:100%;
+  height:100%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  z-index:-1;
+ background: linear-gradient(to bottom, rgba(0,0,0,0.12) 40%,rgba(27,32,48,1) 100%);
+}
+.header:before{
+  content:"";
+  width:100%;
+  height:150%;
+  position:absolute;
+  top:0;
+  left:0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0); backface-visibility: hidden;
+  scale(1.0, 1.0);
+    transform: translateZ(0);
+    background:#eeeee4 url("/images/mathbanner.png") 100% 0 no-repeat;
+  
+  background-size:100%;
+  background-attachment:fixed;
+  animation: grow 360s  linear 10ms infinite;
+  transition:all 0.4s ease-in-out;
+  z-index:-2
+}
+
+
+
+.sides{
+  flex: 0 0 auto;
+  width:100%
+}
+
+.info{
+  width:100%;
+  text-align:right;
+  text-shadow:0 2px 3px rgba(0,0,0,0.2);
+  font-size:1.9em;
+  width:60%
+}
+
+
+
+@keyframes grow{
+  0% { transform: scale(1) translateY(0px)}
+  50% { transform: scale(1.2) translateY(-400px)}
+}
+.content{  
+  padding:5% 10%;
+  text-align:justify
+}
+
+section {
+  background: rgb(192, 192, 192);
+  width: auto;
+  height: 8em;
+  display: grid;
+  
+
+}
+
+
+
 </style>
 
 <div class="boxgroup">
